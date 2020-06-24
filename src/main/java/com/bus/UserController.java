@@ -24,6 +24,9 @@ import com.bus.service.UserService;
 
 @Controller
 public class UserController {
+
+//here we are creating beans
+
 	@Autowired
 	UserService userService;
 	@Autowired
